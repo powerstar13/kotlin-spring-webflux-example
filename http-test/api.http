@@ -1,0 +1,8 @@
+### Hello WebFlux
+GET http://localhost:8080
+
+### getUser
+GET http://localhost:8080/users/1
+
+### getAll
+GET http://localhost:8080/users
