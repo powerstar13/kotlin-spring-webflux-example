@@ -28,3 +28,8 @@ Content-Type: application/json
 ### 서적 삭제
 DELETE http://localhost:8080/books/1
 
+### RestTemplate
+GET localhost:8080/books/block
+
+### WebClient
+GET localhost:8080/books/nonblock
