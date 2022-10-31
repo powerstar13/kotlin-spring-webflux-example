@@ -6,3 +6,25 @@ GET http://localhost:8080/users/1
 
 ### getAll
 GET http://localhost:8080/users
+
+### Hello Controller
+GET http://localhost:8080/hello
+
+### 서적 목록 조회
+GET http://localhost:8080/books
+
+### 서적 조회
+GET http://localhost:8080/books/1
+
+### 서적 등록
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "name": "디자인 패턴",
+  "price": 20000
+}
+
+### 서적 삭제
+DELETE http://localhost:8080/books/1
+
